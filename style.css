@@ -16,15 +16,27 @@ html {
 .blank{
     width: 150px;
     height: 5px;
-    background-color: rgba(255, 255, 255, 0.712);
+    background-color: rgb(255, 255, 255);
     border: 3px solid black;
     margin: 50px;
 }
 h1,h2,h3{
     width: fit-content;
-    background-color: rgba(255, 255, 255, 0.712);
+    background-color: rgb(255, 255, 255);
     border: 3px solid black;
     user-select: none;
+}
+.links{
+    display: flex;
+    align-items:flex-start;
+    justify-content:left;
+    flex-wrap: wrap;
+}
+.links h3{
+    margin-right: 30px;
+}
+.links h3:nth-last-of-type(1){
+    margin-right: 0px;
 }
 /* ::selection {
     color: rgb(255, 255, 255);
