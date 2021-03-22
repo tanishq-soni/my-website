@@ -9,7 +9,6 @@ html {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    transition: 3s;
 }
 .header, .links{
     margin: 50px;

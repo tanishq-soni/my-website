@@ -1,3 +1,5 @@
+window.onload(setbackground());
+
 function setbackground(){
 var index = Math.round(Math.random() * 8);
 var ImagePath = "assets/bg2.svg";
