@@ -38,6 +38,13 @@ h1,h2,h3{
     border-radius: 100px;
     padding-bottom: 0;
 }
+.links h3:hover{
+    transform: rotate(3600deg);
+    margin-right: 30px;
+    border-radius: 100px;
+    padding-bottom: 0;
+    transition: 2s;
+}
 .links h3:nth-last-of-type(1){
     margin-right: 0px;
 }
