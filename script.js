@@ -1,6 +1,4 @@
-window.onload(setbackground());
-
-function setbackground(){
+window.onload = function setbackground(){
 var index = Math.round(Math.random() * 8);
 var ImagePath = "assets/bg2.svg";
 if(index == 1)
@@ -18,5 +16,5 @@ ImagePath = "assets/bg8.svg";
 if(index == 7)
 ImagePath = "assets/bg9.svg"; 
 document.getElementsByTagName("html")[0].style.backgroundImage="url('"+ ImagePath+ "')";
-}
+};
 

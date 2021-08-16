@@ -20,12 +20,18 @@ html {
     border: 3px solid black;
     margin: 50px;
 }
-h1,h2,h3{
+h1,h2,h3,h4{
     padding:5px;
     width: fit-content;
     background-color: rgb(255, 255, 255);
     border: 3px solid black;
     user-select: none;
+}
+h2{
+    font-size: 30px;
+}
+h4{
+    font-size: 20px;
 }
 .links{
     display: flex;
