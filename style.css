@@ -4,13 +4,12 @@
     color: rgb(0, 0, 0);
 }
 html { 
-    background-color: #715DF2;
-    background: url(assets/bg1.svg) no-repeat center center fixed; 
+    background: url('assets/bg1.svg') no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-}
+  }
 .header, .links{
     margin: 50px;
 }
